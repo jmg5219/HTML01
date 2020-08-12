@@ -1,6 +1,23 @@
 <html><!--Opening HTML Tag-->
     <head><!--Gives browser info but does not render-->
         <title>Tortoise and the Hare</title><!--This is how you create a title-->
+        <style>
+            body { /*This brings the body items 24px in from the page edge on all sides*/
+                margin: 24px;
+            }
+            ul, ol{
+              margin-top: 32px;
+              margin-bottom: 32px;
+              padding-left: 20px;
+
+            }
+            li { 
+                line-height: 6;
+            }
+            ul li{/*this rule is more specific it overides the previous rule*/
+                line-height: 1.5;
+            }
+        </style>
     </head>
     <body><!--This is what will render-->
         <!---->
