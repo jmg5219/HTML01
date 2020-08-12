@@ -2,67 +2,146 @@
 <html>
 <head>
     <title>The Hare and the Tortoise</title><!--This is how you create a title-->
+    <style> 
+       
+        *, *:before, *after{
+            box-sizing: border-box;
+        }
+
+        html{
+            font-size: 16px;
+            background-color: rgb(151,150,148);
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            font-size: 1rem;
+            margin: 0;
+            padding: 0;
+        }
+    
+        .black-box{
+            background-color: rgb(40,40,40) ;
+            color: rgb(225,224,222);
+            margin: 5% 25%;
+            padding: 3%
+        }
+        .story-title{
+            font-size: 1.5rem;
+            text-align: center;
+            word-spacing: 0.1em;
+            
+        }
+        ul li{
+            list-style-type: none;
+            display:inline;
+        }
+        .highlight{
+            color: rgb(252,228,145)
+        }
+        ul{
+            text-align: center;
+        }
+        .nav-link{
+            margin:0;
+        }
+
+        .hero-img{
+            width: 257px;
+            height: 365px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto 
+        }
+
+        .container{
+            display: flex;
+
+        }
+
+        .para-left,.para-right{
+            margin: auto;
+            align-items: center;
+            flex: 1 1 0;
+        }
+
+        
+
+    </style>
 </head>
 <body>
-    <div>
-        <!--This is the grey box-->
-    
-    <div>
+    <div class="black-box">
         <!--This is the black box-->
-        <div> 
+        <div class = "story-title"> 
             <!-- This is the title section-->
             <h1>The Hare and the Tortoise</h1>
         </div>
-        <div><!--this is the links-->
+        <div class = "nav-link"><!--this is the links-->
             <ul>
-                <li>work</li>
-                <li>info</li>
+                <li><strong>work</strong></li>
+                <li class="highlight"><strong> / </strong></li>
+                <li class="highlight"><strong>info</strong></li>
             </ul>      
         </div>
 
-        <div>
-            <img src ="https://www.thesprucepets.com/thmb/ZhoosbjJW0_47-asAJBy23wo1v8=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Indianstartortoise-GettyImages-158473585-590f87235f9b586470b20633.jpg"/>
+        
+        <img class="hero-img" src ="https://images.pexels.com/photos/914794/pexels-photo-914794.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"/>
+       
+        <div class = "container">
+            <div class="para-left"><!--This will be the first para on the left hand side-->
+                <p>
+                    <strong>THE HARE</strong> was once boasting of his speed before the other animals. 
+                </p>
+                <p>
+                    <em>“I have never yet been beaten,”</em> said he, <em>“when I put forth my full speed. I challenge any one here to race with me.”</em>
+                </p>
+                <p>
+                    The Tortoise said quietly, <em>“I accept your challenge.”</em>  
+                </p>
+                <p>
+                    <em>“That is a good joke,”</em> said the Hare; <em>“I could dance round you all the way.”</em>
+                </p>
+              
+            </div>
+                <!-- This will be in-line with the previos div-->
+            <div class="para-right">
+                <p>
+                    <em>“Keep your boasting till you’ve beaten,”</em> answered the Tortoise. <em>“Shall we race?”</em>
+                </p>
+                <p>
+                    So a course was fixed and a start was made. 
+                </p>
+                <p>
+                    The Tortoise plodded on and plodded on, and when the Hare awoke from his nap, he saw the Tortoise just near the winning-post and could not run up in time to save the race. 
+                </p>
+                <p>
+                    Then said the Tortoise: <em>“PLODDING WINS THE RACE.”</em>
+                </p>
+                
+            </div>
         </div>
-
-        <div><!--This will be the first para on the left hand side-->
+            
             <p>
-                <strong>THE HARE</strong> was once boasting of his speed before the other animals. <em>“I have never yet been beaten,”</em> said he, <em>“when I put forth my full speed. I challenge any one here to race with me.”</em>
-            </p>
-            <p>
-                The Tortoise said quietly, <em>“I accept your challenge.”</em>  
-            </p>
-            <p>
-                <em>“That is a good joke,”</em> said the Hare; <em>“I could dance round you all the way.”</em>
-            </p>
-        </div>
-            <!-- This will be in-line with the previos div-->
-        <div>
-            <p>
-                <em>“Keep your boasting till you’ve beaten,”</em> answered the Tortoise. <em>“Shall we race?”</em>
-            </p>
-            <p>
-                So a course was fixed and a start was made. The Hare darted almost out of sight at once, but soon stopped and, to show his contempt for the Tortoise, lay down to have a nap. The Tortoise plodded on and plodded on, and when the Hare awoke from his nap, he saw the Tortoise just near the winning-post and could not run up in time to save the race. Then said the Tortoise:
-            </p>
-            <p>
-                <em>“PLODDING WINS THE RACE.”</em>
                 <ul> 
-                    <li>"PLODDING WINS THE RACE"</li>
-                    <li>"PLODDING WINS THE RACE"</li>
-                    <li>"PLODDING WINS THE RACE"</li>
+                    <li>PLODDING WINS THE RACE</li>
+                    <li>PLODDING WINS THE RACE</li>
+                    <li>PLODDING WINS THE RACE</li>
                 </ul>
             </p>
-        </div>
+            
+        
 
         <div><!--This is the bottom links-->
             <ul>
-                <li>gokhale.jaidev@gmail.com</li>
-                <li> INSTAGRAM </li>
+                
+                <li> <a href="linkedin.com/in/jai-gokhale-81827747">Jai Gokhale</a> </li>
+                <li> gokhale.jaidev@gmail.com</li>
             </ul>
         </div>
 
 
     </div>
-    </div><!--This will be the grey part of the page-->
+  
 </body>
 
 </html>
